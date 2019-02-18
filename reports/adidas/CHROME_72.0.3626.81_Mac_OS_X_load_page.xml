@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="adidas.load_page"
+    errors="1" failures="1" hostname="" id="" package="adidas" skipped="0"
+    tests="1" time="9.370" timestamp="">
+  
+    <testcase name="Load Adidas Colombia page" classname="adidas.load_page" time="9.370" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#rso &gt; div:nth-child(1) &gt; div &gt; div &gt; div &gt; div &gt; div.r &gt; a &gt; h3&gt; contains text: &#34;Huge Inc&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Huge Inc&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Load Adidas Colombia page (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/test/adidas/load_page.js:13:17)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)</failure>
+
+    <failure message="    at Object.Load Adidas Colombia page (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/test/adidas/load_page.js:13:17)">    at processTicksAndRejections (internal/process/next_tick.js:81:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

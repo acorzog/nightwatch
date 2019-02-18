@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="adidas.loadPage"
+    errors="1" failures="0" hostname="" id="" package="adidas" skipped="0"
+    tests="1" time="0.004000" timestamp="Tue, 05 Feb 2019 16:30:09 GMT">
+  
+    <testcase name="Go to login page" classname="adidas.loadPage" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Adidas / Load Page / Go to login page]:
+
+  TypeError: utils(...).userLogin is not a function
+    at Object.Go to login page (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/test/adidas/loadPage.js:9:24)
+    at Module.call (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/q/q.js:834:54)
+    at /Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/q/q.js:796:13)
+    at /Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/q/q.js:556:49
+    at runSingle (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/q/q.js:137:13)
+    at flush (/Users/acorzo/Documents/Start&gt;Aut&gt;Ngtwch/node_modules/q/q.js:125:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
